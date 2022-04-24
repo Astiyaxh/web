@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lalezar';
+}
+
+@font-face {
+    font-family: 'Lalezar.ttf';
+    src: url('fonts/Lalezar.ttf') format('ttf');
+}
+
+body{
+    align-items: center;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+li, a, button{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color:white;
+}
+
+.nav_links li a:hover{
+    color: #23d25d;
+}
+
+button{
+    padding: 9px 25px;
+    background-color:gold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(41, 41, 41);
+}
+
+button:hover{
+    background-color: #23d25d;
+}
+
+.logo-large {
+    width: 350px;
+    transform: translate(-30px,-15px);
+    cursor: pointer;
+    color:#23d25d;
+}
+
+.blog-section{
+    width: 100%;
+}
+
+.blog-section, .section-content{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.blog-section, .section-section, .title{
+    width: 60%;
+    text-align: center;
+    margin:auto;
+}
+
+.blog-section, .section-content{
+    font-size: 30px;
+    color:white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 75px;
+    margin-bottom: 10px;
+    color:#23d25d;
+}
+
+h4{
+    font-size: 40px;
+    color:gold;
+}
+
+.posted-date {
+    font-size: 17px;
+    padding-top: 15px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.image-section{
+    margin-top: 100px;
+}
+
+img{
+    border-radius: 20px;
+    width: 65%;
+}
+
+.button{
+    background-color: #23d25d;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+    background-color: gold;
+}
+
+.title > p{
+    color: gold;
+}
+
+
+.article > p{
+    padding-bottom: 40px;
+}
+
