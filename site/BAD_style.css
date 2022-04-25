@@ -243,6 +243,7 @@ img {
 
 body {
     background: var(--primary-color);
+    transition: all 0.2s linear;
 }
 
 #moon {
