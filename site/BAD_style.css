@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Lalezar.ttf';
+    src: url('fonts/Lalezar.ttf') format('ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
