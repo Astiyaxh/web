@@ -252,7 +252,7 @@ body {
     margin: 0px;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 412px) {
     .nav_links li a {
         font-size: small;
     }
