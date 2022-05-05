@@ -1,13 +1,13 @@
+@font-face {
+    font-family: "Lalezar.ttf";
+    src: local("fonts/Lalezar.ttf") format("truetype");
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lalezar';
-}
-
-@font-face {
-    font-family: 'Lalezar.ttf';
-    src: local('fonts/Lalezar.ttf') format('ttf');
+    font-family: "Lalezar";
 }
 
 :root {
