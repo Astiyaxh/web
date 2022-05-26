@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'lalezar-regular';
-    src: url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar-regular.eot') format('embedded-opentype'),
-     url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar-regular.otf') format('opentype'), 
-     url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar-regular.ttf') format('truetype'), 
-     url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar-regular.woff') format('woff'), 
-     url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar-regular.woff2') format('woff2'), 
-     url('c:\users\iran\source\repos\webapplication1\webapplication1\pages\fonts\lalezar.ttf') format('truetype');
+    src: url('fonts/lalezar-regular.eot') format('embedded-opentype'),
+     url('fonts/lalezar-regular.otf') format('opentype'), 
+     url('fonts/lalezar-regular.ttf') format('truetype'), 
+     url('fonts/lalezar-regular.woff') format('woff'), 
+     url('fonts/lalezar-regular.woff2') format('woff2'), 
+     url('fonts/lalezar.ttf') format('truetype');
 }
 
 *{
