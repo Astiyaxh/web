@@ -1,11 +1,26 @@
 @font-face {
-    font-family: 'lalezar-regular';
-    src: url('fonts/lalezar-regular.eot') format('embedded-opentype'),
-     url('fonts/lalezar-regular.otf') format('opentype'), 
-     url('fonts/lalezar-regular.ttf') format('truetype'), 
-     url('fonts/lalezar-regular.woff') format('woff'), 
-     url('fonts/lalezar-regular.woff2') format('woff2'), 
-     url('fonts/lalezar.ttf') format('truetype');
+    font-family: 'vazirmatn-fd-nl-regular';
+    src: url('fonts/vazirmatn-fd-nl-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-fd-nl-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-fd-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-fd-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-nl-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-nl-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-nl[wght].ttf') format('truetype'), 
+         url('fonts/vazirmatn-rd-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-rd-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-rd[wght].ttf') format('truetype'), 
+         url('fonts/vazirmatn-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-ui-fd-nl-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-ui-fd-nl-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-ui-fd-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-ui-fd-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-ui-nl-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-ui-nl-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn-ui-regular.ttf') format('truetype'), 
+         url('fonts/vazirmatn-ui-regular.woff2') format('woff2'), 
+         url('fonts/vazirmatn[wght].ttf') format('truetype');
 }
 
 *{
