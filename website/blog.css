@@ -202,6 +202,7 @@ img {
 
 .button:hover {
     background-color: gold;
+    color: #000106;
 }
 
 .title>p {
@@ -289,6 +290,8 @@ ul{
     list-style:none;
 }
 
+
+/* -------------- footer ------------ */
 .footer{
     background-color: #24262b;
     padding: 70px 0;
@@ -298,10 +301,70 @@ ul{
 .footer-col{
     width: 25%;
     padding:0 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 40px 30px 40px 30px;
 }
 
 .footer-col h4{
     font-size:35px;
     color:#fff;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
+    /* font-weight: 500; */
+    position: relative;
+    /* background-color: red; */
+}
+
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: #23d25d;
+    height: 2px;
+    width:200px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-right: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    /* height: 50px;
+    width: 50px;
+    background-color:rgba(255,255,255,0.2); */
+    margin: 0 25px 25px 0;
+    text-align:center;
+    color:#fff;
+    transition: all 0.4s ease;
+}
+
+.footer-col .social-links .telegram:hover{
+    color: #0088CC;
+}
+
+.footer-col .social-links .twit:hover{
+    color:deepskyblue;
+}
+
+.footer-col .social-links .insta:hover{
+    color:#e91e63;
+}
+
+.footer-col .social-links .youtube:hover{
+    color: red;
 }
