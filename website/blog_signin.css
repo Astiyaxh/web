@@ -42,10 +42,9 @@
 } */
 
 @font-face {
-    font-family: 'lalezar';
-    src: url('../fonts/lalezar.eot') format('embedded-opentype'), url('../fonts/lalezar.otf') format('opentype'), url('../fonts/lalezar.ttf') format('truetype'), url('../fonts/lalezar.woff') format('woff'), url('../fonts/lalezar.woff2') format('woff2');
+    font-family: 'Lalezar';
+    src: url('fonts/Lalezar.ttf') format('truetype'), url('fonts/Lalezar.eot') format('embedded-opentype'), url('fonts/Lalezar.otf') format('OpenType'), url('fonts/Lalezar.woff') format('woff'), url('fonts/Lalezar.woff2') format('woff2');
 }
-
 body {
     /* display: grid; */
     align-items: center;
