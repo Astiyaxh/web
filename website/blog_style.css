@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: 'Lalezar';
-    src: url('fonts/Lalezar.ttf') format('truetype'), url('fonts/Lalezar.eot') format('embedded-opentype'), url('fonts/Lalezar.otf') format(''), url('fonts/Lalezar.woff') format('woff'), url('fonts/Lalezar.woff2') format('woff2');
+    src: url('../fonts/Lalezar.ttf') format('truetype'), url('../fonts/Lalezar.eot') format('embedded-opentype'), url('../fonts/Lalezar.otf') format(''), url('../fonts/Lalezar.woff') format('woff'), url('../fonts/Lalezar.woff2') format('woff2');
 }
 
 body {
