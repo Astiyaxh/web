@@ -9,6 +9,14 @@
     --primary-color: #ecf0f3;
     --secondary-color: #292C35;
     --tertiary-color: rgba(0, 121, 255, 1);
+    --login-back-1: #ecf0f3;
+    --login-back-2: #111112;
+    --login-color: #ecf0f3;
+    --shadow-color-1: #cbced1;
+    --shadow-color-2: #fff;
+    --shadow-color-3: #b1b1b1;
+    --input-color: #555;
+    --h1-color: #292C35;
 }
 
 .dark-mode {
@@ -17,6 +25,14 @@
     --primary-color: #292C35;
     --secondary-color: #ecf0f3;
     --tertiary-color: crimson;
+    --login-back-1: #111112;
+    --login-back-2: #050303;
+    --login-color: rgb(32, 32, 32);
+    --shadow-color-1: #3d3e3e;
+    --shadow-color-2: rgb(0, 0, 0);
+    --shadow-color-3: #525252;
+    --input-color: rgb(166, 165, 165);
+    --h1-color: #050303;
 }
 
 
@@ -26,8 +42,8 @@
 } */
 
 @font-face {
-    font-family: 'Lalezar';
-    src: url('fonts/Lalezar.ttf') format('truetype'), url('fonts/Lalezar.eot') format('embedded-opentype'), url('fonts/Lalezar.otf') format(''), url('fonts/Lalezar.woff') format('woff'), url('fonts/Lalezar.woff2') format('woff2');
+    font-family: 'lalezar';
+    src: url('../fonts/lalezar.eot') format('embedded-opentype'), url('../fonts/lalezar.otf') format('opentype'), url('../fonts/lalezar.ttf') format('truetype'), url('../fonts/lalezar.woff') format('woff'), url('../fonts/lalezar.woff2') format('woff2');
 }
 
 body {
@@ -182,9 +198,9 @@ body {
 
 h1 {
     font-size: 75px;
-    margin-bottom: 10px;
+    margin-bottom: -150px;
     color: #23d25d;
-    text-shadow: var(--secondary-color) 2px 2px 2px;
+    text-shadow: var(--h1-color) 2px 2px 2px;
 }
 
 h4 {
@@ -234,10 +250,11 @@ h4 {
     height: 700px;
     padding: 60px 35px 35px 35px;
     border-radius: 40px;
-    background-color: #ecf0f3;
-    box-shadow: 13px 13px 15px, -13px -13px 20px #fff;
+    color: var(--login-back-2);
+    background-color: var(--login-color);
+    box-shadow: 13px 13px 15px, -13px -13px 20px var(--login-back-1);
     margin-top: 30px;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
     align-items: center;
     /* margin-right: 360px; */
     justify-content: center;
@@ -254,7 +271,7 @@ h4 {
     outline: none;
     background: none;
     font-size: 18px;
-    color: #555;
+    color: var(--input-color);
     padding: 20px 10px 20px 5px;
 }
 
@@ -262,13 +279,13 @@ h4 {
 .password {
     margin-bottom: 30px;
     border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    box-shadow: inset 8px 8px 8px var(--shadow-color-1), inset -8px -8px 8px var(--shadow-color-2);
 }
 
 .fields svg {
-    color: #555;
+    /* color: #555; */
     height: 22px;
-    margin: 0 10px -3px 25px;
+    margin: 5px 5px -8px 5px;
 }
 
 .signin-button {
@@ -279,7 +296,7 @@ h4 {
     height: 60px;
     border-radius: 30px;
     transition: all 0.2s linear;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+    box-shadow: 3px 3px 8px var(--shadow-color-3), -3px -3px 8px var(--shadow-color-2);
 }
 
 
