@@ -112,11 +112,18 @@ button:hover {
     width: 350px;
     transform: translate(60px, -10px);
     cursor: pointer;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* width: 350px;
+    transform: translate(60px, -10px);
+    cursor: pointer;
     box-shadow: 1rem 1rem 1rem 0 rgba(0, 0, 0, 0.5);
     background-color: #1f6ebd51;
     border-radius: 80px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
 }
 
 
@@ -130,8 +137,8 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    grid-auto-rows: minmax(1000px, auto);
-    /* grid-auto-columns: minmax(1000px, auto); */
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
 }
 
 .card {
